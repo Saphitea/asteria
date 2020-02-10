@@ -50,7 +50,7 @@ h1 {
     font-size: 32pt;
     text-align: center;
     margin: auto;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
     letter-spacing: 1px;
     display: block;
 }
@@ -60,12 +60,10 @@ h2{
     font-weight: 300;
     font-size: 20pt;
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 50px 0 15px 0;
     border-bottom: 1px solid #f3e7f5;
     text-align: left;
     letter-spacing: 1px;
-    padding-left: 10px;
 }
 
 h3{
@@ -113,31 +111,6 @@ hr {
     border-top: 0.1pt solid #D7C2F0;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-#attributes {
-    width: 50%;
-    float: right;
-    display: inline-block;
-    margin: auto auto 40px auto;
-    padding: 10px;
-}
-
-.attr, .val {
-    font-size: 10pt;
-    line-height: 16pt;
-    font-weight: 500;
-    letter-spacing: 1px;
-    display: inline-block;
-    width: 49%;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.val{
-    color: #b7a6cb;
-    font-family: 'Laila';
 }
 
 #stripe{
@@ -236,7 +209,7 @@ hr {
     height: 100%;
     position: absolute;
     background-color: white;
-    padding: 50px 20px 10px 20px;
+    padding: 80px 20px 10px 20px;
     box-shadow: 6px 0 6px -6px #d9d5d5, -6px 0 6px -6px #d9d5d5, 0 10px 10px -10px #dacfd5 inset;
     overflow: auto!important;
     z-index: 1;
@@ -252,7 +225,7 @@ hr {
     width: 800px;
     height: 35px;
     right: 0;
-    bottom: 45px;
+    bottom: 55px;
     opacity: 0.7;
     background: white;
 }
@@ -304,72 +277,6 @@ hr {
     opacity: 1!important;
 }
 
-#slidenav {
-    width: 115px;
-    top: 80px;
-    right: 685px;
-    float: left;
-    height: 100%;
-    position: absolute;
-    overflow: auto!important;
-    z-index: 2;
-}
-
-.slidenav {
-    width: 90px;
-    display: block;
-    font-family: 'Cormorant Infant';
-    font-size: 9pt;
-    letter-spacing: 1px;
-    text-transform: lowercase;
-    line-height: 20px;
-    border-radius: 0 10px 10px 0;
-    text-align: center;
-    margin-bottom: 20px;
-    background-color: #fDfBfB;
-    opacity: 0.8;
-    transition: 1.5s;
-    float: left;
-    border-right: 1px solid transparent;
-    border-top: 1px solid transparent;
-    border-bottom: 1px solid transparent;
-    box-shadow: 1px 0 1px 1px #d9d5d5;
-    margin: 10px 0 10px 0;
-    cursor: pointer;
-}
-
-.slidenav:not(.activelink):hover{
-    color: #b7a6cb;
-    background-color: white;
-    opacity: 1;
-    transition: 1s;
-    padding-left: 18px;
-}
-
-#slidenav a{
-    color: #895c60;
-}
-
-#slidenav a:hover{
-    color: #e38693;
-}
-
-.activelink{
-    opacity: 1 !important;
-    transition: 1s;
-    padding-left: 18px;
-    background-color: white;
-}
-
-.navspacer{
-    width: 90px;
-    display: block;
-    height: 20px;
-    margin-bottom: 20px;
-    float: left;
-    margin: 20px 0 20px 0;
-}
-
 #imgnav{
     position: absolute;
     bottom: 20px;
@@ -378,27 +285,53 @@ hr {
 
 /* Home */
 
+.section{
+    display: block;
+    height: 300px;
+    margin-bottom: 20px;
+} 
+
 #side{
     width: 40%;
     float: left;
-    height: 350px;
+    height: 275px;
     border-radius: 20px;
     background-color: ghostwhite;
     margin: 0 5% 10px 0;
 }
 
+#attributes {
+    width: 50%;
+    float: right;
+    display: inline-block;
+    margin: auto auto 35px auto;
+    padding: 10px;
+}
+
+.attr, .val {
+    font-size: 10pt;
+    line-height: 16pt;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.val{
+    color: #b7a6cb;
+    font-family: 'Laila';
+}
+
 .aesthetic{
-    width: 100%;
+    width: 400px;
     margin-top: 40px;
 }
 
-.section{
-    display: block;
-    height: 375px;
-    margin-bottom: 20px;
-} 
 p:first-letter {
-    font-size: 14pt;
+    font-size: 12pt;
     color: #b7a6cb;
     font-family: 'Laila';
     font-style: italic;
@@ -423,6 +356,7 @@ p:first-letter {
 
 #like, #dislike {
     width: 49%;
+    height: 350px;
     display: inline-block;
 }
 #like{
