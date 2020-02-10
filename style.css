@@ -58,7 +58,7 @@ h1 {
 h2{
     font-family: 'Cormorant Garamond', serif;
     font-weight: 300;
-    font-size: 17pt;
+    font-size: 20pt;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -243,7 +243,7 @@ hr {
 }
 
 .container{
-    width: 450px;
+    width: 75%;
     margin: auto;
 }
 
