@@ -50,7 +50,7 @@ h1 {
     font-size: 32pt;
     text-align: center;
     margin: auto;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     letter-spacing: 1px;
     display: block;
 }
@@ -237,7 +237,7 @@ hr {
     position: absolute;
     background-color: white;
     padding: 50px 20px 10px 20px;
-    box-shadow: 6px 0 6px -6px #d9d5d5, -6px 0 6px -6px #d9d5d5, 0 30px 10px -10px #dacfd5 inset;
+    box-shadow: 6px 0 6px -6px #d9d5d5, -6px 0 6px -6px #d9d5d5, 0 10px 10px -10px #dacfd5 inset;
     overflow: auto!important;
     z-index: 1;
 }
