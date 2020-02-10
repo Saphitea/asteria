@@ -1,17 +1,18 @@
 body {
 background: linear-gradient(#B1A9D5, #B2AFD8);
-background-size: calc(100% - 970px) auto;
+height: 100vh;
+width: 100vw;
 font-family: 'Raleway';
 font-size: 8pt;
-line-height: 200% 
+line-height: 200%;
 letter-spacing: 0.4pt;
 color: #9C7E96;
+margin: 0;
 overflow-y: hidden;
 }
 
 ::-webkit-scrollbar-thumb:vertical {
 background-color: #b2afd8;
-/*box-shadow: inset 0px 0 3px white;*/
 border-radius: 7px;
 border: 1px solid #b2afd8;
 transition: 1s;
@@ -229,14 +230,13 @@ hr {
     width: calc(100% - 800px);
     max-width: 800px;
     min-width: 600px;
-    margin-top: -10px;
-    top: -10px;
+    top: 0px;
     right: 800px;
     float: left;
     height: 100%;
     position: absolute;
     background-color: white;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 50px 10px 20px;
     box-shadow: 6px 0 6px -6px #d9d5d5, -6px 0 6px -6px #d9d5d5, 0 30px 10px -10px #dacfd5 inset;
     overflow: auto!important;
     z-index: 1;
