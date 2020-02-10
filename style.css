@@ -729,6 +729,6 @@ p:first-letter {
     }
 }
 
-.container::-webkit-scrollbar, #tracker::-webkit-scrollbar, #bank::-webkit-scrollbar {
+#content::-webkit-scrollbar, #tracker::-webkit-scrollbar, #bank::-webkit-scrollbar {
     display: none;
 }
