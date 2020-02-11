@@ -79,6 +79,7 @@ h3{
 p{
     text-indent: 20pt;
     line-height: 18pt;
+    text-align: left;
 }
 
 /* links */
@@ -218,6 +219,11 @@ hr {
 .container{
     width: 75%;
     margin: auto;
+    text-align: center;
+}
+
+.container .inventory{
+    width: 700px;
 }
 
 #ribbon {
@@ -419,7 +425,7 @@ p:first-letter {
 }
 
 .item img{
-    padding-top: 10px;
+    padding: 10px;
     width: 80px;
     opacity: 0.75;
     transition: 1s;
