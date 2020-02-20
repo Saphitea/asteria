@@ -605,6 +605,7 @@ p:first-letter {
     font-size: 12pt;
     display: block;
     text-indent: 8px;
+	font-family: "Laila";
 }
 
 .item p{
@@ -783,8 +784,26 @@ p:first-letter {
     #nav{
         width: 100%;
         text-align: center;
+	padding-top: 10px;
     }
-    
+	
+    #nav ul{
+        margin: 0;
+        text-align: center;
+    }
+	
+    #nav ul li{
+        margin: 0;
+        border-radius: 0;
+	background: none;
+	width: 18vw;
+	height: auto;
+    }
+
+    #nav ul li img{
+        height: 15vw;
+    }
+	
     #nav ul li span{
         display: none;
     }
