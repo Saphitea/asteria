@@ -1,4 +1,8 @@
-* {transition: 1s;}
+* {
+	transition: 1s;
+	margin: 0;
+	padding 0;
+}
 
 body {
 background: linear-gradient(#B1A9D5, #B2AFD8);
@@ -11,6 +15,7 @@ letter-spacing: 0.4pt;
 color: #9C7E96;
 margin: 0;
 overflow-y: hidden;
+transition: none;
 }
 
 ::-webkit-scrollbar-thumb:vertical {
@@ -789,6 +794,7 @@ p:first-letter {
 	
     #nav ul{
         margin: 0;
+	padding: 0;
         text-align: center;
     }
 	
