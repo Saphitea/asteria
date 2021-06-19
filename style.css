@@ -54,7 +54,7 @@ h1 {
     width: 90%;
     font-weight: 300;
     font-family: 'Cormorant Infant', serif;
-    font-size: 32pt;
+    font-size: 24pt;
     text-align: center;
     margin: auto;
     padding-bottom: 35px;
@@ -220,14 +220,14 @@ hr {
     height: 100%;
     position: absolute;
     background-color: white;
-    padding: 80px 20px 10px 20px;
+    padding: 80px 0px 10px 0px;
     box-shadow: 6px 0 6px -6px #d9d5d5, -6px 0 6px -6px #d9d5d5, 0 10px 10px -10px #dacfd5 inset;
     overflow: auto!important;
     z-index: 1;
 }
 
 .container{
-    width: 75%;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -303,15 +303,21 @@ hr {
 
 .section{
     display: block;
-    height: 300px;
+    height: 400px;
     margin-bottom: 20px;
 } 
 
+#general{
+    background-color: ghostwhite;	
+}
+
 #side{
-    width: 40%;
+    width: 200px;
     float: left;
-    height: 275px;
+    height: 300px;
     border-radius: 20px;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0f5a1c08-7d10-4b7b-87a4-03292dc3772d/dels8q0-cde79cc4-89e2-4bf8-a989-4b3383dacc96.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBmNWExYzA4LTdkMTAtNGI3Yi04N2E0LTAzMjkyZGMzNzcyZFwvZGVsczhxMC1jZGU3OWNjNC04OWUyLTRiZjgtYTk4OS00YjMzODNkYWNjOTYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zYNb7JXGDevi6aPYDdLJ4ylL5pxaThdLdhrw7BhN-VA");
+    background-size: 200px auto;
     background-color: ghostwhite;
     margin: 0 5% 10px 0;
 }
